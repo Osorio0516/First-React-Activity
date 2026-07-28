@@ -4,9 +4,6 @@ import { Link, Stack } from "expo-router";
 import { LinearGradient } from "expo-linear-gradient";
 
 export default function Index() {
-  // Single orchestrated entrance: content breathes in from below, the
-  // orb cluster settles a beat behind it. Nothing else animates —
-  // the rest of the screen stays still and confident.
   const rise = useRef(new Animated.Value(24)).current;
   const fade = useRef(new Animated.Value(0)).current;
   const orbFade = useRef(new Animated.Value(0)).current;
