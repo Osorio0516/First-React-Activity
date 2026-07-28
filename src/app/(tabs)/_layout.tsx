@@ -76,7 +76,7 @@ export default function TabLayout() {
           title: "About",
           tabBarIcon: ({ color, focused }) => (
             <Ionicons
-              name={focused ? "person-circle" : "person-circle-outline"}
+              name={focused ? "information-circle" : "information-circle-outline"}
               size={22}
               color={color}
             />
