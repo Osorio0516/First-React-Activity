@@ -21,9 +21,6 @@ export default function TabLayout() {
           letterSpacing: 1,
           textTransform: "uppercase",
         },
-        // Floating pill bar, same language on every platform — but
-        // on web it's capped in width and centered instead of
-        // stretching edge-to-edge across a wide browser window.
         tabBarStyle: {
           position: "absolute",
           bottom: Platform.select({ ios: 34, web: 24, default: 20 }),
@@ -77,7 +74,7 @@ export default function TabLayout() {
           tabBarIcon: ({ color, focused }) => (
             <Ionicons
               name={focused ? "information-circle" : "information-circle-outline"}
-              size={22}
+              size={26}
               color={color}
             />
           ),
